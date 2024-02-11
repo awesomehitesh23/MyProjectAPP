@@ -1,0 +1,315 @@
+2024-01-14 20:16:13 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 8.0.1.Final
+2024-01-14 20:16:13 [restartedMain] INFO  com.pack.UserApplication -
+				Starting UserApplication using Java 17.0.5 with PID 6912 (F:\Ankita\event-app\EventApp-main\UserMicroservice\target\classes started by HITESH in F:\Ankita\event-app\EventApp-main\UserMicroservice)
+2024-01-14 20:16:13 [restartedMain] INFO  com.pack.UserApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-01-14 20:16:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14 20:16:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14 20:16:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-14 20:16:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 760 ms. Found 1 JPA repository interface.
+2024-01-14 20:16:26 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=dd35ae6c-6b89-3647-8152-65e79afed847
+2024-01-14 20:16:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8085 (http)
+2024-01-14 20:16:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8085"]
+2024-01-14 20:16:35 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-01-14 20:16:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-01-14 20:16:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-01-14 20:16:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 22494 ms
+2024-01-14 20:16:39 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-14 20:16:39 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-01-14 20:16:39 [restartedMain] INFO  org.hibernate.cfg.Environment -
+				HHH000406: Using bytecode reflection optimizer
+2024-01-14 20:16:45 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-14 20:16:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-01-14 20:16:47 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5068decd
+2024-01-14 20:16:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2024-01-14 20:16:48 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-14 20:16:48 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-01-14 20:17:00 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-14 20:17:01 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-14 20:17:10 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-14 20:17:17 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2024-01-14 20:17:18 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2024-01-14 20:17:19 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-01-14 20:17:20 [restartedMain] INFO  o.a.k.c.admin.AdminClientConfig -
+				AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-01-14 20:17:22 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser -
+				Kafka version: 3.4.1
+2024-01-14 20:17:22 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser -
+				Kafka commitId: 8a516edc2755df89
+2024-01-14 20:17:22 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser -
+				Kafka startTimeMs: 1705243642057
+2024-01-14 20:17:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser -
+				App info kafka.admin.client for adminclient-1 unregistered
+2024-01-14 20:17:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics -
+				Metrics scheduler closed
+2024-01-14 20:17:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics -
+				Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-01-14 20:17:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics -
+				Metrics reporters closed
+2024-01-14 20:17:29 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2024-01-14 20:17:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2024-01-14 20:17:29 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-01-14 20:17:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2024-01-14 20:17:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2024-01-14 20:17:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2024-01-14 20:17:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2024-01-14 20:17:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2024-01-14 20:17:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2024-01-14 20:17:30 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2024-01-14 20:17:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2024-01-14 20:17:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2024-01-14 20:17:32 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-01-14 20:17:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1705243652372 with initial instances count: 4
+2024-01-14 20:17:32 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application USER-SERVICE with eureka with status UP
+2024-01-14 20:17:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1705243652392, current=UP, previous=STARTING]
+2024-01-14 20:17:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USER-SERVICE/DYNAMO:user-service:8085: registering service...
+2024-01-14 20:17:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8085"]
+2024-01-14 20:17:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8085 (http) with context path ''
+2024-01-14 20:17:32 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8085
+2024-01-14 20:17:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USER-SERVICE/DYNAMO:user-service:8085 - registration status: 204
+2024-01-14 20:17:33 [restartedMain] INFO  com.pack.UserApplication -
+				Started UserApplication in 84.49 seconds (process running for 93.376)
+2024-01-14 20:22:30 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-01-14 20:27:30 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-01-14 20:28:07 [http-nio-8085-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-14 20:28:07 [http-nio-8085-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2024-01-14 20:28:07 [http-nio-8085-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 4 ms
+2024-01-14 20:31:11 [http-nio-8085-exec-4] INFO  o.a.k.c.producer.ProducerConfig -
+				ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-01-14 20:31:11 [http-nio-8085-exec-4] INFO  o.a.k.clients.producer.KafkaProducer -
+				[Producer clientId=producer-1] Instantiated an idempotent producer.
+2024-01-14 20:31:12 [http-nio-8085-exec-4] INFO  o.a.kafka.common.utils.AppInfoParser -
+				Kafka version: 3.4.1
+2024-01-14 20:31:12 [http-nio-8085-exec-4] INFO  o.a.kafka.common.utils.AppInfoParser -
+				Kafka commitId: 8a516edc2755df89
+2024-01-14 20:31:12 [http-nio-8085-exec-4] INFO  o.a.kafka.common.utils.AppInfoParser -
+				Kafka startTimeMs: 1705244472067
+2024-01-14 20:31:12 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata -
+				[Producer clientId=producer-1] Resetting the last seen epoch of partition topic-0 to 0 since the associated topicId changed from null to LL0_WsihTimhKYoX-LZAlw
+2024-01-14 20:31:12 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata -
+				[Producer clientId=producer-1] Cluster ID: 4WiBveHFTQ6uqBvI6TPnGQ
+2024-01-14 20:31:12 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager -
+				[Producer clientId=producer-1] ProducerId set to 1000 with epoch 0
+2024-01-14 20:32:30 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-01-14 20:32:40 [http-nio-8085-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -
+				Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-01-14 20:37:30 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-01-14 20:40:12 [kafka-producer-network-thread | producer-1] INFO  o.apache.kafka.clients.NetworkClient -
+				[Producer clientId=producer-1] Node -1 disconnected.
+2024-01-14 20:42:30 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2024-01-14 20:47:30 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration

@@ -1,0 +1,216 @@
+2023-12-08 17:30:00 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+				Could not detect default configuration classes for test class [com.pack.UserMicroserviceApplicationTests]: UserMicroserviceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-08 17:30:00 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+				Found @SpringBootConfiguration com.pack.UserApplication for test class com.pack.UserMicroserviceApplicationTests
+2023-12-08 17:30:01 [main] INFO  o.s.b.d.r.RestartApplicationListener -
+				Restart disabled due to context in which it is running
+2023-12-08 17:30:02 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 8.0.1.Final
+2023-12-08 17:30:03 [main] INFO  c.p.UserMicroserviceApplicationTests -
+				Starting UserMicroserviceApplicationTests using Java 17.0.7 with PID 17704 (started by 2063216 in C:\Users\2063216\EventApp-workspace\UserMicroservice)
+2023-12-08 17:30:03 [main] INFO  c.p.UserMicroserviceApplicationTests -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 17:30:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 17:30:05 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 586 ms. Found 1 JPA repository interface.
+2023-12-08 17:30:06 [main] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=d29e7c22-8c0a-3f72-a4ce-9b4854b1a1ea
+2023-12-08 17:30:07 [main] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 17:30:08 [main] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-12-08 17:30:08 [main] INFO  org.hibernate.cfg.Environment -
+				HHH000406: Using bytecode reflection optimizer
+2023-12-08 17:30:08 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 17:30:09 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2023-12-08 17:30:09 [main] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67c15a48
+2023-12-08 17:30:09 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2023-12-08 17:30:09 [main] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 17:30:09 [main] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 17:30:12 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 17:30:12 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 17:30:14 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 17:30:16 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 17:30:16 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 17:30:16 [main] INFO  o.a.k.c.admin.AdminClientConfig -
+				AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-12-08 17:30:16 [main] INFO  o.a.kafka.common.utils.AppInfoParser -
+				Kafka version: 3.4.1
+2023-12-08 17:30:16 [main] INFO  o.a.kafka.common.utils.AppInfoParser -
+				Kafka commitId: 8a516edc2755df89
+2023-12-08 17:30:16 [main] INFO  o.a.kafka.common.utils.AppInfoParser -
+				Kafka startTimeMs: 1702036816710
+2023-12-08 17:30:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser -
+				App info kafka.admin.client for adminclient-1 unregistered
+2023-12-08 17:30:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics -
+				Metrics scheduler closed
+2023-12-08 17:30:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics -
+				Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-12-08 17:30:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics -
+				Metrics reporters closed
+2023-12-08 17:30:17 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 17:30:17 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 17:30:17 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:30:17 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 17:30:17 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 17:30:17 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 17:30:17 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 17:30:17 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 17:30:17 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 17:30:17 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 17:30:18 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 17:30:18 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 17:30:18 [main] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 17:30:18 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702036818653 with initial instances count: 4
+2023-12-08 17:30:18 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application USER-SERVICE with eureka with status UP
+2023-12-08 17:30:18 [main] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702036818660, current=UP, previous=STARTING]
+2023-12-08 17:30:18 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USER-SERVICE/LTIN369346.cts.com:user-service:8085: registering service...
+2023-12-08 17:30:18 [main] INFO  c.p.UserMicroserviceApplicationTests -
+				Started UserMicroserviceApplicationTests in 16.88 seconds (process running for 23.371)
+2023-12-08 17:30:18 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USER-SERVICE/LTIN369346.cts.com:user-service:8085 - registration status: 204
+2023-12-08 17:30:25 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2023-12-08 17:30:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2023-12-08 17:30:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 7 ms
+2023-12-08 17:30:26 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2023-12-08 17:30:26 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2023-12-08 17:30:26 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2023-12-08 17:30:26 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2023-12-08 17:30:26 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2023-12-08 17:30:26 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2023-12-08 17:30:26 [main] INFO  o.s.mock.web.MockServletContext -
+				Initializing Spring TestDispatcherServlet ''
+2023-12-08 17:30:26 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Initializing Servlet ''
+2023-12-08 17:30:26 [main] INFO  o.s.t.w.s.TestDispatcherServlet -
+				Completed initialization in 0 ms
+2023-12-08 17:30:32 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application USER-SERVICE with eureka with status DOWN
+2023-12-08 17:30:32 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702036832865, current=DOWN, previous=UP]
+2023-12-08 17:30:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USER-SERVICE/LTIN369346.cts.com:user-service:8085: registering service...
+2023-12-08 17:30:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USER-SERVICE/LTIN369346.cts.com:user-service:8085 - registration status: 204
+2023-12-08 17:30:32 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 17:30:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2023-12-08 17:30:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2023-12-08 17:30:33 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 17:30:36 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 17:30:36 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_USER-SERVICE/LTIN369346.cts.com:user-service:8085 - deregister  status: 200
+2023-12-08 17:30:36 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient

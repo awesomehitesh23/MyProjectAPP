@@ -1,0 +1,1957 @@
+2023-12-08 16:00:38 [background-preinit] INFO  o.h.validator.internal.util.Version -
+				HV000001: Hibernate Validator 8.0.1.Final
+2023-12-08 16:00:38 [restartedMain] INFO  com.pack.WishListApplication -
+				Starting WishListApplication using Java 17.0.7 with PID 23096 (C:\Users\2063216\EventApp-workspace\EventWishListMicroservice\target\classes started by 2063216 in C:\Users\2063216\EventApp-workspace\EventWishListMicroservice)
+2023-12-08 16:00:38 [restartedMain] INFO  com.pack.WishListApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 16:00:38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-08 16:00:38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-08 16:00:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 16:00:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 337 ms. Found 1 JPA repository interface.
+2023-12-08 16:00:41 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=97c0aa1d-0aa4-3210-b653-49b6bdeaf9a5
+2023-12-08 16:00:42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8088 (http)
+2023-12-08 16:00:42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:00:42 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-12-08 16:00:42 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-08 16:00:42 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-12-08 16:00:42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 4412 ms
+2023-12-08 16:00:43 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 16:00:43 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-12-08 16:00:43 [restartedMain] INFO  org.hibernate.cfg.Environment -
+				HHH000406: Using bytecode reflection optimizer
+2023-12-08 16:00:43 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 16:00:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2023-12-08 16:00:44 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f47e256
+2023-12-08 16:00:44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Start completed.
+2023-12-08 16:00:44 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 16:00:44 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 16:00:46 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 16:00:46 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:00:47 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 16:00:49 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2023-12-08 16:00:49 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 16:00:50 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 16:00:50 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 16:00:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 16:00:50 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:00:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 16:00:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 16:00:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 16:00:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 16:00:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 16:00:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 16:00:50 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 16:00:51 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 16:00:51 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 16:00:51 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 16:00:51 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702031451340 with initial instances count: 3
+2023-12-08 16:00:51 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application WISHLIST-SERVICE with eureka with status UP
+2023-12-08 16:00:51 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702031451353, current=UP, previous=STARTING]
+2023-12-08 16:00:51 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:00:51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:00:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8088 (http) with context path ''
+2023-12-08 16:00:51 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8088
+2023-12-08 16:00:51 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:00:51 [restartedMain] INFO  com.pack.WishListApplication -
+				Started WishListApplication in 14.935 seconds (process running for 17.839)
+2023-12-08 16:05:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:10:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:15:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:20:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:25:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:30:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:30:53 [http-nio-8088-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 16:30:53 [http-nio-8088-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2023-12-08 16:30:53 [http-nio-8088-exec-2] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 27 ms
+2023-12-08 16:30:53 [http-nio-8088-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] -
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [JWT Token is missing] with root cause
+jakarta.servlet.ServletException: JWT Token is missing
+	at com.pack.filter.WishListFilter.doFilter(WishListFilter.java:54)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-08 16:31:03 [http-nio-8088-exec-6] ERROR com.pack.aspectJ.WishListAspectJ -
+				Exception raised while adding the favourite event: Event already exists in wishlist
+2023-12-08 16:31:03 [http-nio-8088-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				Resolved [com.pack.exception.WishListEventAlreadyExistsException: Event already exists in wishlist]
+2023-12-08 16:31:17 [http-nio-8088-exec-9] INFO  com.pack.aspectJ.WishListAspectJ -
+				Event added to wishlist of user with UserId: 15 successfully!
+2023-12-08 16:31:45 [http-nio-8088-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] -
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Invalid siganature / token ] with root cause
+jakarta.servlet.ServletException: Invalid siganature / token 
+	at com.pack.filter.WishListFilter.doFilter(WishListFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-08 16:35:50 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:38:50 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-08 16:38:50 [Thread-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application WISHLIST-SERVICE with eureka with status DOWN
+2023-12-08 16:38:50 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702033730905, current=DOWN, previous=UP]
+2023-12-08 16:38:50 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:38:50 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:38:50 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:38:50 [Thread-1] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2023-12-08 16:38:50 [Thread-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-08 16:38:50 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:38:50 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Destroying ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:38:50 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:38:51 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown initiated...
+2023-12-08 16:38:51 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Shutdown completed.
+2023-12-08 16:38:51 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 16:38:54 [DiscoveryClient-1] WARN  c.n.discovery.TimedSupervisorTask -
+				task supervisor shutting down, can't accept the task
+2023-12-08 16:38:54 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 16:38:54 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - deregister  status: 200
+2023-12-08 16:38:54 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2023-12-08 16:38:54 [restartedMain] INFO  com.pack.WishListApplication -
+				Starting WishListApplication using Java 17.0.7 with PID 23096 (C:\Users\2063216\EventApp-workspace\EventWishListMicroservice\target\classes started by 2063216 in C:\Users\2063216\EventApp-workspace\EventWishListMicroservice)
+2023-12-08 16:38:54 [restartedMain] INFO  com.pack.WishListApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 16:38:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 16:38:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2023-12-08 16:38:55 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=97c0aa1d-0aa4-3210-b653-49b6bdeaf9a5
+2023-12-08 16:38:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8088 (http)
+2023-12-08 16:38:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:38:55 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-12-08 16:38:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-08 16:38:55 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-12-08 16:38:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 1042 ms
+2023-12-08 16:38:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 16:38:55 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 16:38:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Starting...
+2023-12-08 16:38:55 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65edfd13
+2023-12-08 16:38:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Start completed.
+2023-12-08 16:38:55 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 16:38:55 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 16:38:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 16:38:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:38:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 16:38:56 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2023-12-08 16:38:56 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 16:38:56 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 16:38:56 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 16:38:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 16:38:56 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:38:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 16:38:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 16:38:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 16:38:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 16:38:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 16:38:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 16:38:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 16:38:56 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 16:38:57 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 16:38:57 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 16:38:57 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702033737004 with initial instances count: 4
+2023-12-08 16:38:57 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application WISHLIST-SERVICE with eureka with status UP
+2023-12-08 16:38:57 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702033737011, current=UP, previous=STARTING]
+2023-12-08 16:38:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:38:57 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:38:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8088 (http) with context path ''
+2023-12-08 16:38:57 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8088
+2023-12-08 16:38:57 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:38:57 [restartedMain] INFO  com.pack.WishListApplication -
+				Started WishListApplication in 2.831 seconds (process running for 2303.293)
+2023-12-08 16:38:57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2023-12-08 16:39:14 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-08 16:39:14 [Thread-7] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application WISHLIST-SERVICE with eureka with status DOWN
+2023-12-08 16:39:14 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702033754269, current=DOWN, previous=UP]
+2023-12-08 16:39:14 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:39:14 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:39:14 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:14 [Thread-7] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2023-12-08 16:39:14 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:14 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Destroying ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:14 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:39:14 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Shutdown initiated...
+2023-12-08 16:39:14 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Shutdown completed.
+2023-12-08 16:39:14 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 16:39:17 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 16:39:17 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - deregister  status: 200
+2023-12-08 16:39:17 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2023-12-08 16:39:17 [restartedMain] INFO  com.pack.WishListApplication -
+				Starting WishListApplication using Java 17.0.7 with PID 23096 (C:\Users\2063216\EventApp-workspace\EventWishListMicroservice\target\classes started by 2063216 in C:\Users\2063216\EventApp-workspace\EventWishListMicroservice)
+2023-12-08 16:39:17 [restartedMain] INFO  com.pack.WishListApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 16:39:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 16:39:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2023-12-08 16:39:18 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=97c0aa1d-0aa4-3210-b653-49b6bdeaf9a5
+2023-12-08 16:39:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8088 (http)
+2023-12-08 16:39:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:18 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-12-08 16:39:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-08 16:39:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-12-08 16:39:18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 754 ms
+2023-12-08 16:39:18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 16:39:18 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 16:39:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-3 - Starting...
+2023-12-08 16:39:18 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bb68d2e
+2023-12-08 16:39:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-3 - Start completed.
+2023-12-08 16:39:18 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 16:39:18 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 16:39:18 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 16:39:18 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:39:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 16:39:18 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2023-12-08 16:39:18 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 16:39:19 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 16:39:19 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 16:39:19 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 16:39:19 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702033759166 with initial instances count: 4
+2023-12-08 16:39:19 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application WISHLIST-SERVICE with eureka with status UP
+2023-12-08 16:39:19 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702033759169, current=UP, previous=STARTING]
+2023-12-08 16:39:19 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:39:19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8088 (http) with context path ''
+2023-12-08 16:39:19 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8088
+2023-12-08 16:39:19 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:39:19 [restartedMain] INFO  com.pack.WishListApplication -
+				Started WishListApplication in 1.873 seconds (process running for 2325.403)
+2023-12-08 16:39:19 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2023-12-08 16:39:27 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-08 16:39:27 [Thread-13] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application WISHLIST-SERVICE with eureka with status DOWN
+2023-12-08 16:39:27 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702033767497, current=DOWN, previous=UP]
+2023-12-08 16:39:27 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:39:27 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:39:27 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:27 [Thread-13] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2023-12-08 16:39:27 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:27 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Destroying ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:27 [Thread-13] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:39:27 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-3 - Shutdown initiated...
+2023-12-08 16:39:27 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-3 - Shutdown completed.
+2023-12-08 16:39:27 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 16:39:30 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 16:39:30 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - deregister  status: 200
+2023-12-08 16:39:30 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2023-12-08 16:39:30 [restartedMain] INFO  com.pack.WishListApplication -
+				Starting WishListApplication using Java 17.0.7 with PID 23096 (C:\Users\2063216\EventApp-workspace\EventWishListMicroservice\target\classes started by 2063216 in C:\Users\2063216\EventApp-workspace\EventWishListMicroservice)
+2023-12-08 16:39:30 [restartedMain] INFO  com.pack.WishListApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 16:39:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 16:39:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2023-12-08 16:39:31 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=97c0aa1d-0aa4-3210-b653-49b6bdeaf9a5
+2023-12-08 16:39:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8088 (http)
+2023-12-08 16:39:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:31 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-12-08 16:39:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-08 16:39:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-12-08 16:39:31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 597 ms
+2023-12-08 16:39:31 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 16:39:31 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 16:39:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-4 - Starting...
+2023-12-08 16:39:31 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e2142e9
+2023-12-08 16:39:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-4 - Start completed.
+2023-12-08 16:39:31 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 16:39:31 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 16:39:31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 16:39:31 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:39:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 16:39:31 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2023-12-08 16:39:32 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 16:39:32 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 16:39:32 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 16:39:32 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 16:39:32 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702033772442 with initial instances count: 4
+2023-12-08 16:39:32 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application WISHLIST-SERVICE with eureka with status UP
+2023-12-08 16:39:32 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702033772444, current=UP, previous=STARTING]
+2023-12-08 16:39:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:39:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:39:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8088 (http) with context path ''
+2023-12-08 16:39:32 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8088
+2023-12-08 16:39:32 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:39:32 [restartedMain] INFO  com.pack.WishListApplication -
+				Started WishListApplication in 1.995 seconds (process running for 2338.712)
+2023-12-08 16:39:32 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2023-12-08 16:42:07 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-08 16:42:07 [Thread-19] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application WISHLIST-SERVICE with eureka with status DOWN
+2023-12-08 16:42:07 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702033927657, current=DOWN, previous=UP]
+2023-12-08 16:42:07 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:42:07 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:42:07 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:42:07 [Thread-19] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2023-12-08 16:42:07 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:42:07 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Destroying ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:42:07 [Thread-19] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:42:07 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-4 - Shutdown initiated...
+2023-12-08 16:42:07 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-4 - Shutdown completed.
+2023-12-08 16:42:07 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 16:42:10 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 16:42:10 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - deregister  status: 200
+2023-12-08 16:42:10 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2023-12-08 16:42:10 [restartedMain] INFO  com.pack.WishListApplication -
+				Starting WishListApplication using Java 17.0.7 with PID 23096 (C:\Users\2063216\EventApp-workspace\EventWishListMicroservice\target\classes started by 2063216 in C:\Users\2063216\EventApp-workspace\EventWishListMicroservice)
+2023-12-08 16:42:10 [restartedMain] INFO  com.pack.WishListApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 16:42:11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 16:42:11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2023-12-08 16:42:11 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=97c0aa1d-0aa4-3210-b653-49b6bdeaf9a5
+2023-12-08 16:42:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8088 (http)
+2023-12-08 16:42:11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:42:11 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-12-08 16:42:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-08 16:42:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-12-08 16:42:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 587 ms
+2023-12-08 16:42:11 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 16:42:11 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 16:42:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-5 - Starting...
+2023-12-08 16:42:11 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f09ef97
+2023-12-08 16:42:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-5 - Start completed.
+2023-12-08 16:42:11 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 16:42:11 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 16:42:11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 16:42:11 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:42:11 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 16:42:12 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2023-12-08 16:42:12 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 16:42:12 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 16:42:12 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 16:42:12 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 16:42:12 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702033932367 with initial instances count: 4
+2023-12-08 16:42:12 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application WISHLIST-SERVICE with eureka with status UP
+2023-12-08 16:42:12 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702033932368, current=UP, previous=STARTING]
+2023-12-08 16:42:12 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:42:12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:42:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8088 (http) with context path ''
+2023-12-08 16:42:12 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8088
+2023-12-08 16:42:12 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:42:12 [restartedMain] INFO  com.pack.WishListApplication -
+				Started WishListApplication in 1.675 seconds (process running for 2498.59)
+2023-12-08 16:42:12 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2023-12-08 16:44:06 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-08 16:44:06 [Thread-25] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application WISHLIST-SERVICE with eureka with status DOWN
+2023-12-08 16:44:06 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702034046955, current=DOWN, previous=UP]
+2023-12-08 16:44:06 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:44:06 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:44:06 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:06 [Thread-25] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2023-12-08 16:44:06 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:06 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Destroying ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:06 [Thread-25] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:44:06 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-5 - Shutdown initiated...
+2023-12-08 16:44:06 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-5 - Shutdown completed.
+2023-12-08 16:44:06 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 16:44:09 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 16:44:09 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - deregister  status: 200
+2023-12-08 16:44:10 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2023-12-08 16:44:10 [restartedMain] INFO  com.pack.WishListApplication -
+				Starting WishListApplication using Java 17.0.7 with PID 23096 (C:\Users\2063216\EventApp-workspace\EventWishListMicroservice\target\classes started by 2063216 in C:\Users\2063216\EventApp-workspace\EventWishListMicroservice)
+2023-12-08 16:44:10 [restartedMain] INFO  com.pack.WishListApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 16:44:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 16:44:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2023-12-08 16:44:10 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=97c0aa1d-0aa4-3210-b653-49b6bdeaf9a5
+2023-12-08 16:44:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8088 (http)
+2023-12-08 16:44:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:10 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-12-08 16:44:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-08 16:44:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-12-08 16:44:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 675 ms
+2023-12-08 16:44:10 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 16:44:11 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 16:44:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-6 - Starting...
+2023-12-08 16:44:11 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24f0dd07
+2023-12-08 16:44:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-6 - Start completed.
+2023-12-08 16:44:11 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 16:44:11 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 16:44:11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 16:44:11 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:44:11 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 16:44:11 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2023-12-08 16:44:11 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 16:44:11 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 16:44:11 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 16:44:11 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 16:44:11 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702034051788 with initial instances count: 4
+2023-12-08 16:44:11 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application WISHLIST-SERVICE with eureka with status UP
+2023-12-08 16:44:11 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702034051790, current=UP, previous=STARTING]
+2023-12-08 16:44:11 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:44:11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8088 (http) with context path ''
+2023-12-08 16:44:11 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8088
+2023-12-08 16:44:11 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:44:11 [restartedMain] INFO  com.pack.WishListApplication -
+				Started WishListApplication in 1.807 seconds (process running for 2618.028)
+2023-12-08 16:44:11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2023-12-08 16:44:13 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-08 16:44:13 [Thread-31] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application WISHLIST-SERVICE with eureka with status DOWN
+2023-12-08 16:44:13 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702034053927, current=DOWN, previous=UP]
+2023-12-08 16:44:13 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:44:13 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:44:13 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:13 [Thread-31] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2023-12-08 16:44:13 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:13 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Destroying ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:13 [Thread-31] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:44:13 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-6 - Shutdown initiated...
+2023-12-08 16:44:13 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-6 - Shutdown completed.
+2023-12-08 16:44:13 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 16:44:16 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 16:44:16 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - deregister  status: 200
+2023-12-08 16:44:16 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2023-12-08 16:44:17 [restartedMain] INFO  com.pack.WishListApplication -
+				Starting WishListApplication using Java 17.0.7 with PID 23096 (C:\Users\2063216\EventApp-workspace\EventWishListMicroservice\target\classes started by 2063216 in C:\Users\2063216\EventApp-workspace\EventWishListMicroservice)
+2023-12-08 16:44:17 [restartedMain] INFO  com.pack.WishListApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 16:44:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 16:44:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2023-12-08 16:44:17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=97c0aa1d-0aa4-3210-b653-49b6bdeaf9a5
+2023-12-08 16:44:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8088 (http)
+2023-12-08 16:44:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:17 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-12-08 16:44:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-08 16:44:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-12-08 16:44:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 561 ms
+2023-12-08 16:44:17 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 16:44:17 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 16:44:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-7 - Starting...
+2023-12-08 16:44:17 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@185e1798
+2023-12-08 16:44:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-7 - Start completed.
+2023-12-08 16:44:17 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 16:44:17 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 16:44:17 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 16:44:17 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:44:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 16:44:18 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2023-12-08 16:44:18 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 16:44:18 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 16:44:18 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 16:44:18 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 16:44:18 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702034058569 with initial instances count: 4
+2023-12-08 16:44:18 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application WISHLIST-SERVICE with eureka with status UP
+2023-12-08 16:44:18 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702034058572, current=UP, previous=STARTING]
+2023-12-08 16:44:18 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:44:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8088 (http) with context path ''
+2023-12-08 16:44:18 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8088
+2023-12-08 16:44:18 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:44:18 [restartedMain] INFO  com.pack.WishListApplication -
+				Started WishListApplication in 1.712 seconds (process running for 2624.843)
+2023-12-08 16:44:18 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2023-12-08 16:44:33 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-08 16:44:33 [Thread-37] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application WISHLIST-SERVICE with eureka with status DOWN
+2023-12-08 16:44:33 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702034073143, current=DOWN, previous=UP]
+2023-12-08 16:44:33 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:44:33 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:44:33 [Thread-37] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:33 [Thread-37] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2023-12-08 16:44:33 [Thread-37] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:33 [Thread-37] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Destroying ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:33 [Thread-37] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:44:33 [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-7 - Shutdown initiated...
+2023-12-08 16:44:33 [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-7 - Shutdown completed.
+2023-12-08 16:44:33 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 16:44:36 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 16:44:36 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - deregister  status: 200
+2023-12-08 16:44:36 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2023-12-08 16:44:36 [restartedMain] INFO  com.pack.WishListApplication -
+				Starting WishListApplication using Java 17.0.7 with PID 23096 (C:\Users\2063216\EventApp-workspace\EventWishListMicroservice\target\classes started by 2063216 in C:\Users\2063216\EventApp-workspace\EventWishListMicroservice)
+2023-12-08 16:44:36 [restartedMain] INFO  com.pack.WishListApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 16:44:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 16:44:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2023-12-08 16:44:37 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=97c0aa1d-0aa4-3210-b653-49b6bdeaf9a5
+2023-12-08 16:44:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8088 (http)
+2023-12-08 16:44:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:37 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-12-08 16:44:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-08 16:44:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-12-08 16:44:37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 967 ms
+2023-12-08 16:44:37 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 16:44:37 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 16:44:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-8 - Starting...
+2023-12-08 16:44:37 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b90fc00
+2023-12-08 16:44:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-8 - Start completed.
+2023-12-08 16:44:37 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 16:44:37 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 16:44:37 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 16:44:37 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:44:37 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 16:44:37 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2023-12-08 16:44:38 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 16:44:38 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 16:44:38 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 16:44:38 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 16:44:38 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702034078274 with initial instances count: 4
+2023-12-08 16:44:38 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application WISHLIST-SERVICE with eureka with status UP
+2023-12-08 16:44:38 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702034078278, current=UP, previous=STARTING]
+2023-12-08 16:44:38 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:44:38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8088 (http) with context path ''
+2023-12-08 16:44:38 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8088
+2023-12-08 16:44:38 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:44:38 [restartedMain] INFO  com.pack.WishListApplication -
+				Started WishListApplication in 2.062 seconds (process running for 2644.488)
+2023-12-08 16:44:38 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2023-12-08 16:44:48 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener -
+				Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-08 16:44:48 [Thread-43] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application WISHLIST-SERVICE with eureka with status DOWN
+2023-12-08 16:44:48 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702034088776, current=DOWN, previous=UP]
+2023-12-08 16:44:48 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:44:48 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:44:48 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:48 [Thread-43] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2023-12-08 16:44:48 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:48 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Destroying ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:48 [Thread-43] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:44:48 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-8 - Shutdown initiated...
+2023-12-08 16:44:48 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-8 - Shutdown completed.
+2023-12-08 16:44:48 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 16:44:51 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 16:44:51 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - deregister  status: 200
+2023-12-08 16:44:51 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
+2023-12-08 16:44:52 [restartedMain] INFO  com.pack.WishListApplication -
+				Starting WishListApplication using Java 17.0.7 with PID 23096 (C:\Users\2063216\EventApp-workspace\EventWishListMicroservice\target\classes started by 2063216 in C:\Users\2063216\EventApp-workspace\EventWishListMicroservice)
+2023-12-08 16:44:52 [restartedMain] INFO  com.pack.WishListApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2023-12-08 16:44:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-08 16:44:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2023-12-08 16:44:52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -
+				BeanFactory id=97c0aa1d-0aa4-3210-b653-49b6bdeaf9a5
+2023-12-08 16:44:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8088 (http)
+2023-12-08 16:44:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:52 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2023-12-08 16:44:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-08 16:44:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2023-12-08 16:44:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 588 ms
+2023-12-08 16:44:52 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-08 16:44:52 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-08 16:44:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-9 - Starting...
+2023-12-08 16:44:52 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@214fe7ba
+2023-12-08 16:44:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-9 - Start completed.
+2023-12-08 16:44:52 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-08 16:44:52 [restartedMain] WARN  org.hibernate.orm.deprecation -
+				HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-08 16:44:52 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-08 16:44:52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 16:44:52 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-08 16:44:53 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -
+				Unable to start LiveReload server
+2023-12-08 16:44:53 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration -
+				Eureka HTTP Client uses RestTemplate.
+2023-12-08 16:44:53 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-08 16:44:53 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -
+				Setting initial instance status as: STARTING
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Initializing Eureka in region us-east-1
+2023-12-08 16:44:53 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Disable delta property : false
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Single vip registry refresh property : null
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Force full registry fetch : false
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application is null : false
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Registered Applications size is zero : true
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Application version is -1: true
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Getting all instance registry info from the eureka server
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				The response status is 200
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Starting heartbeat executor: renew interval is: 30
+2023-12-08 16:44:53 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -
+				InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Discovery Client initialized at timestamp 1702034093521 with initial instances count: 4
+2023-12-08 16:44:53 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Registering application WISHLIST-SERVICE with eureka with status UP
+2023-12-08 16:44:53 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702034093531, current=UP, previous=STARTING]
+2023-12-08 16:44:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 16:44:53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Starting ProtocolHandler ["http-nio-8088"]
+2023-12-08 16:44:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8088 (http) with context path ''
+2023-12-08 16:44:53 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -
+				Updating port to 8088
+2023-12-08 16:44:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration status: 204
+2023-12-08 16:44:53 [restartedMain] INFO  com.pack.WishListApplication -
+				Started WishListApplication in 1.783 seconds (process running for 2659.789)
+2023-12-08 16:44:53 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2023-12-08 16:49:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:54:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 16:59:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:04:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:09:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:14:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:18:49 [http-nio-8088-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-08 17:18:49 [http-nio-8088-exec-3] INFO  o.s.web.servlet.DispatcherServlet -
+				Initializing Servlet 'dispatcherServlet'
+2023-12-08 17:18:49 [http-nio-8088-exec-3] INFO  o.s.web.servlet.DispatcherServlet -
+				Completed initialization in 7 ms
+2023-12-08 17:18:49 [http-nio-8088-exec-7] INFO  o.s.api.AbstractOpenApiResource -
+				Init duration for springdoc-openapi is: 267 ms
+2023-12-08 17:19:01 [http-nio-8088-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] -
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [JWT Token is missing] with root cause
+jakarta.servlet.ServletException: JWT Token is missing
+	at com.pack.filter.WishListFilter.doFilter(WishListFilter.java:54)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-08 17:19:19 [http-nio-8088-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] -
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Invalid siganature / token ] with root cause
+jakarta.servlet.ServletException: Invalid siganature / token 
+	at com.pack.filter.WishListFilter.doFilter(WishListFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-08 17:19:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:20:07 [http-nio-8088-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-12-08 17:20:24 [http-nio-8088-exec-7] INFO  com.pack.aspectJ.WishListAspectJ -
+				Event data retrieved for user with UserId: 1 successfully!
+2023-12-08 17:20:46 [http-nio-8088-exec-10] ERROR com.pack.aspectJ.WishListAspectJ -
+				Exception raised while deleting the favourite event: Event is not found in Wishlist
+2023-12-08 17:20:46 [http-nio-8088-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				Resolved [com.pack.exception.WishListEventNotFoundException: Event is not found in Wishlist]
+2023-12-08 17:24:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:29:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:34:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:39:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:44:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:49:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:54:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 17:59:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 18:04:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 18:09:53 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 18:32:09 [HikariPool-9 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -
+				HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=21m14s793ms1µs).
+2023-12-08 18:35:38 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -
+				Resolving eureka endpoints via configuration
+2023-12-08 18:36:40 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -
+				Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 19 more
+
+2023-12-08 18:36:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -
+				Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:149)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:159)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 22 more
+
+2023-12-08 18:36:40 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-12-08 18:36:40 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-12-08 18:36:40 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -
+				Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:103)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 20 more
+
+2023-12-08 18:36:40 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-12-08 18:36:40 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-08 18:36:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -
+				Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:149)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:159)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 23 more
+
+2023-12-08 18:36:40 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-12-08 18:36:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -
+				Application shutdown requested.
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -
+				Unregistering application WISHLIST-SERVICE with eureka with status DOWN
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Saw local status change event StatusChangeEvent [timestamp=1702040801280, current=DOWN, previous=UP]
+2023-12-08 18:36:41 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088: registering service...
+2023-12-08 18:36:41 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -
+				Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:81)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 22 more
+
+2023-12-08 18:36:41 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-12-08 18:36:41 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-08 18:36:41 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Pausing ProtocolHandler ["http-nio-8088"]
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Stopping ProtocolHandler ["http-nio-8088"]
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Destroying ProtocolHandler ["http-nio-8088"]
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-9 - Shutdown initiated...
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-9 - Shutdown completed.
+2023-12-08 18:36:41 [RMI TCP Connection(138)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Shutting down DiscoveryClient ...
+2023-12-08 18:36:44 [RMI TCP Connection(138)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Unregistering ...
+2023-12-08 18:36:44 [RMI TCP Connection(138)-127.0.0.1] INFO  c.n.d.s.t.d.RedirectingEurekaHttpClient -
+				Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:916)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:892)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:191)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:184)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1182)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1118)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1084)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1035)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:113)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:181)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:447)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:101)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 77 more
+
+2023-12-08 18:36:44 [RMI TCP Connection(138)-127.0.0.1] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-12-08 18:36:44 [RMI TCP Connection(138)-127.0.0.1] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_WISHLIST-SERVICE/LTIN369346.cts.com:wishlist-service:8088 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:916)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:892)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:191)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:184)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1182)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1118)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1084)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1035)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-12-08 18:36:44 [RMI TCP Connection(138)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -
+				Completed shut down of DiscoveryClient
