@@ -1,0 +1,22 @@
+use eventdb;
+
+CREATE TABLE wishlist (
+  wishlist_id int NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+  event_id bigint DEFAULT NULL,
+  user_id int DEFAULT NULL,
+  event_type varchar(254) DEFAULT NULL,
+  datetime_utc varchar(254) DEFAULT NULL,
+  venue_name varchar(254) DEFAULT NULL,
+  venue_capacity varchar(254) DEFAULT NULL,
+  performer_name varchar(254) DEFAULT NULL
+ );
+ 
+ CREATE TABLE user (
+  user_id int NOT NULL PRIMARY KEY,
+  password varchar(254) NOT NULL,
+  email varchar(254) NOT NULL,
+  phone_number varchar(10) NOT NULL
+);
+
+select * from wishlist;
+select * from user;
